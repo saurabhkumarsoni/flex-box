@@ -1,0 +1,58 @@
+.flex-container{
+
+    height: 65vh;
+    display: flex;
+    border: 1px solid black;
+    // flex-direction: row | column;
+    // flex-wrap: wrap | nowrap;
+
+    // flex-flow is shorthand for flex row and flex wrap
+    flex-flow: row wrap;
+    // flex-flow: column wrap;
+
+    // justify-content is way to align the item
+    // justify-content: flex-start;  // div render with first to last in left side
+    // justify-content: flex-end; // div render from  last to first in right side
+    justify-content: center;   // div comes in center
+    // justify-content: space-around;   // eqaul space in left right and between 
+    // justify-content: space-between;     // eqaul space betwen div not from left an right of the container
+
+
+    // align-items: center;   // The center value aligns the flex items in the middle of the container
+    //  align-items: flex-start; // The flex-start value aligns the flex items at the top of the container
+    //  align-items: flex-end;  // The flex-end value aligns the flex items at the bottom of the container:
+    // align-items: stretch;  // The stretch value stretches the flex items to fill the container (this is default)
+    // align-items: baseline;  // align-items: baseline;
+    // align-content: space-between;
+    // align-content: space-around;
+    // align-content: stretch;
+    // align-content: center;
+    // align-content: flex-start;
+    // align-content: flex-end;
+}
+
+.flex-item{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: brown;
+    color: white;
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 400px;
+
+    margin: 20px;
+}
+
+
+.flex-items{
+    width: 100px;
+    height: 100px;
+    background-color: whitesmoke;
+}
